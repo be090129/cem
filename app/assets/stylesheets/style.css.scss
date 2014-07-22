@@ -1,0 +1,32 @@
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
+$body-bg : #E6E3DC;
+$font-family-sans-serif:'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:45px;
+$navbar-inverse-brand-color:#ffffff ;
+$navbar-inverse-link-color : #ffffff;
+$navbar-inverse-link-hover-color : #8b7a27 ;
+$brand-primary: #8b7a27 ;
+$jumbotron-bg:white;
+
+@import 'bootstrap';
+
+body {
+  padding-top: 70px;
+}
+
+.center {
+  text-align : center;
+}
+
+.navbar-brand {
+  font-weight : bold;
+}
+
+.logo {
+  width:300px;
+}
